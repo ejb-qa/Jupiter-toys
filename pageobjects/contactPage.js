@@ -74,18 +74,3 @@ class ContactPage extends BasePage {
 
 module.exports = ContactPage
 
-
-
-
-
-//put in utils
-// async forenameErrorRemoved() {
-//     try {
-//         await this.driver.wait(until.elementIsVisible(this.driver.findElement(Locator.forenameError)), 5000)
-//         console.log("Element is present, but it shouldn't be.")
-//         return false // Element is present
-//     } catch (error) {
-//         console.log("Forename error is not present.")
-//         return true // Element is not present
-//     }
-// }
